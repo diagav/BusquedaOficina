@@ -52,7 +52,7 @@ public class LoginSteps {
 		Thread.sleep(10000);
     	driver.findElement(By.xpath("//*[@id=\'tab1\']/div[1]/div[6]/div[1]/div/div[1]/button")).click();
     	Thread.sleep(10000);
-		System.out.println(resultado);
+		//System.out.println(resultado);
 		assertEquals("ENVIGADO", resultado);
 		}
 
