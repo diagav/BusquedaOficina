@@ -45,7 +45,7 @@ public class LoginSteps {
 		driver.findElement(By.id("srch-term")).sendKeys("Envigado");
 		driver.findElement(By.xpath("//*[@id=\'tab1\']/div[1]/div[1]/div")).click();
 	}
-
+	
 	@Then("el usuario puede ver la lista de las sucursales cercanas")
 	public void usuarioVeListaSucursales() throws InterruptedException {
 		String resultado = driver.findElement(By.xpath("//*[@id=\'tab1\']/div[1]/div[6]/div[1]/div/div[2]/h3[1]")).getText();
